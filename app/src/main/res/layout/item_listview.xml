@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    android:gravity="center"
+    >
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:text="something"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:id="@+id/tv_name"
+            />
+
+    <TextView
+        android:id="@+id/tv_wage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:text="wage"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp" />
+
+</LinearLayout>
